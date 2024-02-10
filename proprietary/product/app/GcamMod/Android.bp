@@ -1,0 +1,12 @@
+android_app_import {
+	name: "GcamMod",
+	owner: "google",
+	apk: "GcamMod.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+	overrides: ["GoogleCamera", "Camera2", "Aperture"],
+}
+

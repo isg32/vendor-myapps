@@ -1,0 +1,10 @@
+android_app_import {
+    name: "InnerTune",
+    apk: "InnerTune.apk",
+    presigned: true,
+    product_specific: true,
+    overrides: ["Eleven"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
