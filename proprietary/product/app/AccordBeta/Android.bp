@@ -1,6 +1,6 @@
 android_app_import {
-    name: "InnerTune",
-    apk: "InnerTune.apk",
+    name: "Accord",
+    apk: "Accordbeta1.apk",
     presigned: true,
     product_specific: true,
     overrides: ["Eleven"],
